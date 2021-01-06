@@ -1,20 +1,26 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
     
 }
 header{
-    height: 40px;
+    height: 56px;
     transition-duration: .4s;
+    background-color: coral;
+    
 }
 header a{
+    display: block;
     text-decoration: none;
     font-size: x-large;
     float:right;
-    margin: 20px 30px;
-    color: black;
+    padding: 14px 16px;
+    color: white;
+    margin-right: 10px;
+    
 }   
 header a:hover{
-    color: brown;
+    background-color: rgb(161, 52, 33);
 }
 section{
     border: 0px solid red;
@@ -62,7 +68,12 @@ span{
     color: white;
     font-weight: 700;
     transition: all linear .3s;
+    
 }
+.button:hover{
+    color:steelblue;
+}
+
 .project{
     margin-top: 150px;
 }
@@ -83,6 +94,7 @@ span{
 .project-content div img{
     width: 95%;
     margin: 7px 0 0 7px;
+    
     
 }
 footer{
